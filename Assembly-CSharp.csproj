@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\Car_Spawner.cs" />
     <Compile Include="Assets\Scripts\Car_s1.cs" />
     <Compile Include="Assets\Scripts\Car_s2.cs" />
+    <Compile Include="Assets\Scripts\car_s3.cs" />
+    <Compile Include="Assets\Scripts\car_s4.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/UnityPackages/2019.4.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

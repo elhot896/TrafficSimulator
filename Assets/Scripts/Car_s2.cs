@@ -12,7 +12,7 @@ public class Car_s2 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        transform.position = new Vector2(-0.33f, -36);
+        transform.position = new Vector2(-0.33f, 4.5f);
         transform.Rotate(0, 0, 180);
 
 
