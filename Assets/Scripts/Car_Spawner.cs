@@ -17,8 +17,8 @@ public class Car_Spawner : MonoBehaviour
     {
         spawning = GameObject.Find("TrafficManager");
 
-        InvokeRepeating("CarSpawner_s1_s3", 1, 2);
-        InvokeRepeating("CarSpawner_s2_s4", 1, 1);
+        InvokeRepeating("CarSpawner_s1_s3", 1, 1.5f);
+        InvokeRepeating("CarSpawner_s2_s4", 1, 0.1f);
         
     }
 

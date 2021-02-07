@@ -6,6 +6,7 @@ public class Car_s1 : MonoBehaviour
 {
 
     private Rigidbody2D rb;
+    private bool run = false;
     public GameObject traffic;
 
     // Start is called before the first frame update
@@ -28,6 +29,11 @@ public class Car_s1 : MonoBehaviour
             rb.velocity = new Vector2(2.0f, 0);
         }
 
+        else if(run)
+        {
+            rb.velocity = new Vector2(4, 0);
+        }
+
         else
         {
             rb.velocity = new Vector2(0, 0);
@@ -39,6 +45,11 @@ public class Car_s1 : MonoBehaviour
         if (collision.tag == "Destroy")
         {
             Destroy(this.gameObject);
+        }
+
+        if (collision.tag == "Run")
+        {
+            run = true;
         }
     }
 

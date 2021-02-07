@@ -5,6 +5,7 @@ using UnityEngine;
 public class car_s4 : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private bool run = false;
     public GameObject traffic;
 
     // Start is called before the first frame update
@@ -21,11 +22,16 @@ public class car_s4 : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (traffic.GetComponent<TrafficManager>().keeprun24 == true)
+        if (traffic.GetComponent<TrafficManager>().keeprun24 || run)
+        {
             rb.velocity = new Vector2(0, 2.0f);
-
+        }
+              
         else
+        {
             rb.velocity = new Vector2(0, 0);
+        }
+            
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,6 +39,11 @@ public class car_s4 : MonoBehaviour
         if (collision.tag == "Destroy")
         {
             Destroy(this.gameObject);
+        }
+
+        if (collision.tag == "Run")
+        {
+            run = true;
         }
     }
 
