@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{35375BB0-1B97-AE98-CADB-B9A1C0D344AB}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Car_Spawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/Car_s2.cs" Line="33" Column="6" />
-      <File FileName="Assets/Scripts/Car_s1.cs" Line="16" Column="6" />
-      <File FileName="Assets/Scripts/Car_Spawner.cs" Line="37" Column="72" />
-      <File FileName="Assets/Scripts/car_s3.cs" Line="33" Column="2" />
-      <File FileName="Assets/car_s4.cs" Line="32" Column="6" />
+      <File FileName="Assets/Scripts/Car_s1.cs" Line="28" Column="37" />
+      <File FileName="Assets/Scripts/Car_s2.cs" Line="33" Column="45" />
+      <File FileName="Assets/Scripts/car_s3.cs" Line="24" Column="15" />
+      <File FileName="Assets/Scripts/car_s4.cs" Line="22" Column="16" />
+      <File FileName="Assets/Scripts/TrafficManager.cs" Line="67" Column="6" />
+      <File FileName="Assets/Scripts/Car_Spawner.cs" Line="20" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="254527c7-dabc-441d-9167-1f2edaf35f8d" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="36915610-b7ea-4922-bd3c-a0a5e486721e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

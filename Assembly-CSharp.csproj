@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Car_Spawner.cs" />
     <Compile Include="Assets\Scripts\Car_s1.cs" />
     <Compile Include="Assets\Scripts\Car_s2.cs" />
+    <Compile Include="Assets\Scripts\TrafficManager.cs" />
     <Compile Include="Assets\Scripts\car_s3.cs" />
     <Compile Include="Assets\Scripts\car_s4.cs" />
     <Reference Include="UnityEngine">
